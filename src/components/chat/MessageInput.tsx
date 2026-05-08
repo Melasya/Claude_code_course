@@ -27,7 +27,7 @@ export function MessageInput({
   };
 
   return (
-    <form onSubmit={handleSubmit} className="relative p-4 bg-white border-t border-neutral-200/60">
+    <form onSubmit={handleSubmit} className="relative p-4 bg-white dark:bg-neutral-900 border-t border-neutral-200/60 dark:border-neutral-700/60">
       <div className="relative max-w-4xl mx-auto">
         <textarea
           value={input}
@@ -35,7 +35,7 @@ export function MessageInput({
           onKeyDown={handleKeyDown}
           placeholder="Describe the React component you want to create..."
           disabled={isLoading}
-          className="w-full min-h-[80px] max-h-[200px] pl-4 pr-14 py-3.5 rounded-xl border border-neutral-200 bg-neutral-50/50 text-neutral-900 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/10 focus:border-blue-500/50 focus:bg-white transition-all placeholder:text-neutral-400 text-[15px] font-normal shadow-sm"
+          className="w-full min-h-[80px] max-h-[200px] pl-4 pr-14 py-3.5 rounded-xl border border-neutral-200 dark:border-blue-500/40 bg-neutral-50/50 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500/10 focus:border-blue-500/50 dark:focus:border-blue-400/60 focus:bg-white dark:focus:bg-neutral-800 transition-all placeholder:text-neutral-400 dark:placeholder:text-neutral-500 text-[15px] font-normal shadow-sm"
           rows={3}
         />
         <button 
