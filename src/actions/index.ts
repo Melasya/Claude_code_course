@@ -1,8 +1,7 @@
 "use server";
 
-import bcrypt from "bcrypt";
 import { prisma } from "@/lib/prisma";
-import { createSession, deleteSession, getSession } from "@/lib/auth";
+import { createSession, deleteSession, getSession, hashPassword, verifyPassword } from "@/lib/auth";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
@@ -37,8 +36,7 @@ export async function signUp(
       return { success: false, error: "Email already registered" };
     }
 
-    // Hash password
-    const hashedPassword = await bcrypt.hash(password, 10);
+    const hashedPassword = await hashPassword(password);
 
     // Create user
     const user = await prisma.user.create({
@@ -78,8 +76,7 @@ export async function signIn(
       return { success: false, error: "Invalid credentials" };
     }
 
-    // Verify password
-    const isValidPassword = await bcrypt.compare(password, user.password);
+    const isValidPassword = await verifyPassword(password, user.password);
 
     if (!isValidPassword) {
       return { success: false, error: "Invalid credentials" };

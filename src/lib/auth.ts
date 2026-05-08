@@ -2,6 +2,20 @@ import "server-only";
 import { SignJWT, jwtVerify } from "jose";
 import { cookies } from "next/headers";
 import { NextRequest } from "next/server";
+import bcrypt from "bcrypt";
+
+const BCRYPT_ROUNDS = 10;
+
+export async function hashPassword(password: string): Promise<string> {
+  return bcrypt.hash(password, BCRYPT_ROUNDS);
+}
+
+export async function verifyPassword(
+  password: string,
+  hash: string
+): Promise<boolean> {
+  return bcrypt.compare(password, hash);
+}
 
 const JWT_SECRET = new TextEncoder().encode(
   process.env.JWT_SECRET || "development-secret-key"
