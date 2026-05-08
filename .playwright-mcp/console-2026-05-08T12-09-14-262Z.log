@@ -1,0 +1,42 @@
+[      81ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[     123ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     251ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:14111
+[     267ms] TypeError: Cannot read properties of undefined (reading 'modules')
+    at [project]/node_modules/node-gyp-build/node-gyp-build.js [middleware-edge] (ecmascript) (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\_6dd031e7._.js:13945:28)
+    at <unknown> (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:722:27)
+    at runModuleExecutionHooks (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:768:9)
+    at instantiateModule (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:720:9)
+    at getOrInstantiateModuleFromParent (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:653:12)
+    at commonJsRequire (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:158:20)
+    at [project]/node_modules/node-gyp-build/index.js [middleware-edge] (ecmascript) (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\_6dd031e7._.js:14125:44)
+    at <unknown> (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:722:27)
+    at runModuleExecutionHooks (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:768:9)
+    at instantiateModule (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:720:9)
+[     264ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[     267ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[     514ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[   60550ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   60712ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_82bb97c6._.js:14111
+[   60728ms] TypeError: Cannot read properties of undefined (reading 'modules')
+    at [project]/node_modules/node-gyp-build/node-gyp-build.js [middleware-edge] (ecmascript) (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\_6dd031e7._.js:13945:28)
+    at <unknown> (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:722:27)
+    at runModuleExecutionHooks (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:768:9)
+    at instantiateModule (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:720:9)
+    at getOrInstantiateModuleFromParent (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:653:12)
+    at commonJsRequire (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:158:20)
+    at [project]/node_modules/node-gyp-build/index.js [middleware-edge] (ecmascript) (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\_6dd031e7._.js:14125:44)
+    at <unknown> (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:722:27)
+    at runModuleExecutionHooks (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:768:9)
+    at instantiateModule (file://C:\second_sem\miniproject\uigen\.next\server\edge\chunks\edge-wrapper_4438e53e.js:720:9)
+[   60765ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[   60767ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[   60904ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[  135399ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11886
+[  135586ms] [LOG] [Fast Refresh] done in 289ms @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11750
+[  142205ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11514
+[  145555ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11514
+[  148898ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11514
+[  152233ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11514
+[  156519ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11471
+[  172375ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[  173765ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
